@@ -1,0 +1,33 @@
+html, body {
+  margin:0;
+  padding:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#drum-machine {
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  justify-content: space-between;
+  border:1px solid black;
+  flex-wrap: wrap;
+}
+
+#display {
+  flex-basis: 100%;
+}
+.drum-pad { 
+  position: relative;
+  width:12rem;
+  height:0;
+  line-height: 0;
+  padding:5.938rem 0;
+  text-align: center;
+  border:1px solid black;
+
+  cursor: pointer;
+
+}
