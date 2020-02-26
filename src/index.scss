@@ -1,33 +1,89 @@
 html, body {
   margin:0;
   padding:0;
+
+  font-family: sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #drum-machine {
-  width: 40rem;
-  height: 40rem;
+  position: relative;
+  width: 30rem;
+  height: 30rem;
   display: flex;
   justify-content: space-between;
-  border:1px solid black;
   flex-wrap: wrap;
 }
 
 #display {
+  text-align: center;
+  text-transform: uppercase;
+  padding:1rem;
   flex-basis: 100%;
 }
+
 .drum-pad { 
   position: relative;
-  width:12rem;
+  width: 30%;
   height:0;
-  line-height: 0;
-  padding:5.938rem 0;
+  line-height: 0.1;
+  padding:3.5rem 0;
+  margin-bottom:1rem;
   text-align: center;
-  border:1px solid black;
+  border:0.6rem solid #333;
 
   cursor: pointer;
+  
+  -webkit-border-radius:0 5rem 0 5rem;
+  border-radius:0 5rem 0 5rem;
 
+  -webkit-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+
+  &.active {
+    background-color: tomato;
+    border-color: greenyellow;
+
+    -webkit-transform: scale(1.2) rotate(360deg);
+    transform: scale(1.2) rotate(360deg);
+    
+    -webkit-transition: all 0.1s;
+    transition: all 0.2s;
+  }
+}
+
+
+// HANDLE FONT SIZES
+$breakpoint: 40rem;
+
+html {
+  // Set root sizes
+  font-size: 9px;
+  @media (min-width: $breakpoint) {
+    font-size: 16px;
+  }
+}
+
+// Counteract root sizes
+#display,
+.drum-pad {
+  font-size: 2rem;
+}
+
+@media (min-width: $breakpoint) {
+  #display,
+  .drum-pad {
+    font-size: 1rem;
+  }
 }
