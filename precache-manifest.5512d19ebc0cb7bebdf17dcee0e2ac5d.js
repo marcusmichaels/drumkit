@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0005010321473cbe48d475888941d178",
+    "revision": "301b188f87771724bce1b7a51829a2a9",
     "url": "/drumkit/index.html"
   },
   {
