@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/drumkit/static/css/main.e751b5ef.chunk.css",
-    "main.js": "/drumkit/static/js/main.a7f146f3.chunk.js",
-    "main.js.map": "/drumkit/static/js/main.a7f146f3.chunk.js.map",
+    "main.css": "/drumkit/static/css/main.2aee7840.chunk.css",
+    "main.js": "/drumkit/static/js/main.f4c2a32e.chunk.js",
+    "main.js.map": "/drumkit/static/js/main.f4c2a32e.chunk.js.map",
     "runtime-main.js": "/drumkit/static/js/runtime-main.57d99a46.js",
     "runtime-main.js.map": "/drumkit/static/js/runtime-main.57d99a46.js.map",
     "static/js/2.8b53bc3c.chunk.js": "/drumkit/static/js/2.8b53bc3c.chunk.js",
     "static/js/2.8b53bc3c.chunk.js.map": "/drumkit/static/js/2.8b53bc3c.chunk.js.map",
     "index.html": "/drumkit/index.html",
-    "precache-manifest.4c28cb8f11075801cfc9dbda7ab11e5b.js": "/drumkit/precache-manifest.4c28cb8f11075801cfc9dbda7ab11e5b.js",
+    "precache-manifest.5512d19ebc0cb7bebdf17dcee0e2ac5d.js": "/drumkit/precache-manifest.5512d19ebc0cb7bebdf17dcee0e2ac5d.js",
     "service-worker.js": "/drumkit/service-worker.js",
-    "static/css/main.e751b5ef.chunk.css.map": "/drumkit/static/css/main.e751b5ef.chunk.css.map",
+    "static/css/main.2aee7840.chunk.css.map": "/drumkit/static/css/main.2aee7840.chunk.css.map",
     "static/js/2.8b53bc3c.chunk.js.LICENSE.txt": "/drumkit/static/js/2.8b53bc3c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.57d99a46.js",
     "static/js/2.8b53bc3c.chunk.js",
-    "static/css/main.e751b5ef.chunk.css",
-    "static/js/main.a7f146f3.chunk.js"
+    "static/css/main.2aee7840.chunk.css",
+    "static/js/main.f4c2a32e.chunk.js"
   ]
 }
